@@ -1,0 +1,38 @@
+div.modal
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 99;
+    background-color: #4F4F4F;
+    opacity: .5;
+}
+
+.modalWait
+{
+    background-color: #cfcece;
+    border: 1px solid #797979;
+    width: 280px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: -140px;
+}
+
+    .modalWait .waitImg
+    {
+        width: 250px;
+        height: 20px;
+        margin-top: -10px;
+        margin-left: -125px;
+    }
+
+    .modalWait,
+    .modalWait .waitImg
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 100;
+    }
